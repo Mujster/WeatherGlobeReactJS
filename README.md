@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# App Still In Development Phase
+
+Working on bug fixes for better user experience
+New Version of app will be published later
+
+# My React Three Fiber Project
+
+## Installation
+
+To get started, install the following packages:
+
+```bash
+npm i @react-three/fiber
+npm i @react-three/drei
+npm i three @react-three/fiber
+npm i styled-components
+
 ## Available Scripts
 
 In the project directory, you can run:
