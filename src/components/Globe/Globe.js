@@ -15,9 +15,9 @@ const Globe=({coordinates})=>{
     const CloudRef=useRef();
     const ControlRef=useRef();
        useFrame(({clock,camera})=>{
-        // const elapsedTime=clock.getElapsedTime();
+        const elapsedTime=clock.getElapsedTime();
         // EarthRef.current.rotation.y=elapsedTime/100;
-        // CloudRef.current.rotation.y=elapsedTime/80;
+        CloudRef.current.rotation.y=elapsedTime/80;
         if (coordinates && coordinates.lat !== null && coordinates.lon !== null) {
             const { lat, lon } = coordinates;
             const radius = 1;
