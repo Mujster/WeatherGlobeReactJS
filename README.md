@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Screenshots
+![Image](1.PNG)
+![Image](2.PNG)
 # App Still In Development Phase
 
 Working on bug fixes for better user experience
