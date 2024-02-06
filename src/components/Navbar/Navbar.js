@@ -13,7 +13,7 @@ const Navbar=({updateCoordinates})=>{
     const Days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 
     const FormatMonth=`${Months[currentDate.getMonth()]} ${currentDate.getFullYear()}`;
-    const FormatDay=`${Days[currentDate.getDay()+6]}, ${Months[currentDate.getMonth()].substring(0, 3)} ${currentDate.getDate()}, ${currentDate.getFullYear()}`;
+    const FormatDay=`${Days[currentDate.getDay()+1]}, ${Months[currentDate.getMonth()].substring(0, 3)} ${currentDate.getDate()}, ${currentDate.getFullYear()}`;
 
     const HandleOnSearchChange=(SearchData)=>{
         const [lat,lon]=SearchData.value.split(" ");
